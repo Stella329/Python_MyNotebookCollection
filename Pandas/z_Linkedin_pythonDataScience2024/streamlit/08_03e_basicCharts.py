@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 col_names = ["column1","column2","column3"]
 
-data = pd.DataFrame(np.random.randint(30, size=(30, 3)),columns=col_names)
+data = pd.DataFrame(np.random.randint(30, size=(30, 3)),columns=col_names) # size: 
 
 'line graph:'
 st.line_chart(data)
